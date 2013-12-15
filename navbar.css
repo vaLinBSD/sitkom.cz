@@ -1,0 +1,79 @@
+/* http://smarchal.com/twbscolor */
+.navbar-default {
+    background-color: #ff9112;
+    border-color: #d05a11;
+}
+.navbar-default .navbar-brand {
+    color: #000000;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #feffff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #feffff;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #feffff;
+    background-color: #d05a11;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #feffff;
+    background-color: #d05a11;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #feffff;
+    border-bottom-color: #feffff;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #feffff;
+    border-bottom-color: #feffff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #d05a11;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #d05a11;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #000000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #feffff;
+    }
+}
+
+/* http://www.google.com/fonts */
+.navbar-brand {
+  font-size: 18px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* customize dropdown-menu colors */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #ff9112;
+}
