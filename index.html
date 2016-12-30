@@ -53,22 +53,25 @@
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://speedtest.sitkom.cz">Měřič rychlosti</a></li>
-										<li><a href="#">Plánované odstávky</a></li>
+										<li><a href="//speedtest.sitkom.cz">Měřič rychlosti</a></li>
+										<li><a href="//twitter.com/sitkom_cz">Plánované odstávky</a></li>
+										<li><a href="#mapa">Mapa pokrytí</a></li>
+										<li><a href="#faq">FAQ</a></li>
+										<li><a href="#navody">Návody</a></li>
 										<li class="divider"></li>
 										<li class="dropdown-header">Firma</li>
-										<li><a href="#about">O nás</a></li>
-										<li><a href="#contact">Kontakt</a></li>
+										<li><a href="#onas">O nás</a></li>
+										<li><a href="#kontakt">Kontakt</a></li>
 									</ul>
 								</li>
 							</ul>
 
-							<form class="navbar-form navbar-right" role="form">
+							<form class="navbar-form navbar-right" role="form" method="post" action="//fis.sitkom.cz/index.php">
 								<div class="form-group">
-									<input type="text" placeholder="ID / VS / číslo smlouvy" class="form-control">
+									<input type="text" placeholder="ID / VS / číslo smlouvy" class="form-control" name="fis_reg_login">
 								</div>
 								<div class="form-group">
-									<input type="password" placeholder="Heslo" class="form-control">
+									<input type="password" placeholder="Heslo" class="form-control" name="fis_reg_password">
 								</div>
 								<button type="submit" class="btn btn-success">Přihlásit</button>
 							</form>
@@ -97,7 +100,7 @@
 						<div class="carousel-caption">
 							<h1>INTERNET</h1>
 							<p>Uvažujete o připojení k síti internet? Chcete mít rychlý download/upload bez datového i časového omezení FUP? Chcete připojit svou domácnost či firmu? Nabízíme Vám cenově dostupnou variantu za použití moderních technologií 5GHz/802.11n/MIMO nebo UTP/FIBER (v závislosti na lokalitě).</p>
-							<p><a class="btn btn-lg btn-primary" href="#interet" role="button">Více informací</a></p>
+							<p><a class="btn btn-lg btn-primary" href="#internet" role="button">Více informací</a></p>
 						</div>
 					</div>
 				</div>
@@ -116,7 +119,7 @@
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>IT podpora</h1>
-							<p>Správa firemních sítí. Konfigurace serverů. Servis PC.</p>
+							<p>Správa, konfigurace a zabezpečení firemních sítí, serverů, PC.</p>
 							<p><a class="btn btn-lg btn-primary" href="#it" role="button">Více informací</a></p>
 						</div>
 					</div>
@@ -126,13 +129,9 @@
 			<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 		</div><!-- /.carousel -->
 
-		<!-- TODO: nahradit za http://speedtest.sitkom.cz
-		<iframe src="http://speedtest.sfn" width="385" height="230" style="border: 0;">
-			<p>Your browser doesn't support iframes... seriously...</p>
-		</iframe> -->
 
 		<!-- Tweeter Timeline
-		<a class="twitter-timeline" href="https://twitter.com/sitkom_cz" data-widget-id="412528992361537536">Tweety od @sitkom_cz</a>
+		<a class="twitter-timeline" href="//twitter.com/sitkom_cz" data-widget-id="412528992361537536">Tweety od @sitkom_cz</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		 -->
 
@@ -147,21 +146,21 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-					<h2>Heading</h2>
-					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+					<h2>INTERNET</h2>
+					<p>Uvažujete o připojení k síti internet? Chcete mít rychlý download/upload bez datového i časového omezení FUP? Chcete připojit svou domácnost či firmu? Nabízíme Vám cenově dostupnou variantu za použití moderních technologií 5GHz/802.11n/MIMO nebo UTP/FIBER (v závislosti na lokalitě)</p>
+					<p><a class="btn btn-default" href="#internet" role="button">Více informací &raquo;</a></p>
 				</div><!-- /.col-lg-4 -->
 				<div class="col-lg-4">
 					<img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-					<h2>Heading</h2>
-					<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+					<h2>VoIP telefonie</h2>
+					<p>Chcete ušetřit za telefonování doma nebo ve firmě? Jako doplňkovou službu k internetové přípojce Vám nabízíme volání přes internet za výhodné ceny. Stačí si objednat službu VoIP telefonie a připojit vhodné zařízení. Chcete zrušit stávají  cí pevnou linku, ale nechcete přijít o číslo? Převeďte si ho k nám.</p>
+					<p><a class="btn btn-default" href="#voip" role="button">Více informací &raquo;</a></p>
 				</div><!-- /.col-lg-4 -->
 				<div class="col-lg-4">
 					<img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-					<h2>Heading</h2>
-					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+					<h2>IT podpora</h2>
+					<p>Správa, konfigurace a zabezpečení firemních sítí, serverů, PC.</p>
+					<p><a class="btn btn-default" href="#it" role="button">Více informací &raquo;</a></p>
 				</div><!-- /.col-lg-4 -->
 			</div><!-- /.row -->
 
@@ -212,7 +211,7 @@
 			<!-- FOOTER -->
 			<footer>
 				<p class="pull-right"><a href="#">Zpět nahoru</a></p>
-				<p>&copy; 2015 SITKOM, spol. s r.o. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+				<p>&copy; 2017 SITKOM, spol. s r.o. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 			</footer>
 
 		</div><!-- /.container -->
